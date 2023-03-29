@@ -5,24 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./rsc/Systems and technology programming company logo (1).png">
+    <link rel="shortcut icon" href="./src/Systems and technology programming company logo.jpg">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Portfolio</title>
     
 </head>
-<body>
-<!--Menu de inicio-->
-    <nav class="navbar navbar-expand-lg">
-        <img id="logo" src="./rsc/Systems and technology programming company logo (1).png" alt="logo" width="100px" height="auto">
+<body class="bg-dark">
+  <header class="intro">
+    <div class="header">
+
+    <!-- Inicio del menú -->
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-text"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand" href="#"> 
+            <!-- <i class="bi bi-code-slash" id="icon"></i>
+            <span class="icon1"> CTA </span> -->
+          </a>
+
+            <!-- Desarollo del Icono -->
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#menu">
+            <i class="bi bi-code-slash" id="icon"></i>
+            <span class="icon1"> CTA </span>        
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+
+          <!-- botón del menú
+          <button class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#menu">
+            <span class="navbar-toggler"><i class="bi bi-grid-1x2-fill"></i></span>
+          </button> -->
+
+          <!-- Elementos del menú colapsable -->
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#inicio">Home</a>
               </li>
 
               <li class="nav-item">
@@ -35,7 +55,7 @@
 
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle"  class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                  Reflexions
                 </a>
                 <ul class="dropdown-menu">
@@ -46,24 +66,57 @@
                 </ul>
               </li>
               
-            </ul>
+            </ul> 
+            <li class="d-md-none d-lg-block">
+            <i class="bi bi-code-slash" id="icon"></i>
+                  <span class="icon1"> CTA </span>
+                </li>
           </div>
+          
         </div>
       </nav>
-    
-      <section class="Portafolio">
-        <hr>
-        <h1 class="nombre"> <a name="inicio">Carolina Tovar Alfaro </a></h1>
-        <p class="texto1">
 
-            <br><br>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nostrum praesentium earum, repudiandae laborum fugit minus impedit dicta repellendus quisquam asperiores cum, voluptates veritatis ad autem eaque sed recusandae pariatur.
-            <img class="foto" src="./rsc/WhatsApp Image 2023-03-15 at 16.10.03.jpeg" alt="Photo" height="500px" width=auto>
+      <section>
+      <div class="introContainer">
+        <div class="wrapper">
+          <span class="top_line" id="hello">Hello <b id="line">__</b></span>
+          <br>
+        </div>
+          <h1 id="im">I´m <span class="multitext">Coder</span></h1>
 
-        </p>
-       
-    
+        
+      <p class="subtitle1"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Deleniti, sapiente non. Accusantium.</p>
+        <ul>
+        <button type="button" id="btnCV">Download CV</button>
+        <button type="button" id="btnCV">Hire Me</button>
+      </ul>
+     
+      </div>
+
     </section>
+    </header>
+
+    <div>
+      <video muted autoplay loop> <source src="./src/WTWPE3422_MOV_AdobeExpress.mp4"  type="video/mp4"></video>
+    </div>
+    
+
+<div>
+  
+  <section class="inicio">
+    <div class="presentacion">
+        <h1 class="nombre"> <a name="inicio"> Carolina Tovar Alfaro</a></h1>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <figure class="fotoMia">
+            <!-- <img class="foto" src="./src/Foto.png" alt="Photo"> -->
+          </figure>
+          
+            
+    </section>
+      
+
 
     <section class="about">
         <h1> <a name="about">About</a></h1>
@@ -80,11 +133,21 @@
         </p>
     </section>
 
+  </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multitext",{
+        strings : [ ,"a Programmer", "Coder","an Engineer"],
+        loop:true,
+        typeSpeed : 100,
+        backspeed : 80,
+        backDelay:100,
+      })
+    </script>
 </body>
 
 <footer>

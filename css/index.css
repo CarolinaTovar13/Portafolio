@@ -1,40 +1,245 @@
 *  {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 5px;
+   
     
 }
-html{
-    height: 10px;
-    background-color:#ffefdf;
+
+
+
+video {
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+   /* opacity: 0.8; */
+   background-size: cover;
+   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+   z-index: -1;
+   /* left: -15%; */
 
 }
-nav{
-    background-color: #ffefdf;
+
+/* @media (min-width:800){
+    .video{
+        width:250vw
+    }
+} */
+
+.nav{
+    height:15px;
 }
-/*Este es el hijo rebelde*/
+
+.navbar{
+    height:10% ;
+    background-color: black;
+    opacity: 80%;
+    
+}
+
+/* header{
+    background-color: black;
+    z-index: initial;
+ } */
+
+
+/* .container{
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: black;
+
+
+} */
+.container-fluid{
+  width: 90%;
+}
+
+/* #menu.navbar-collapse.collapse {
+    width:50px;
+    display: grid;
+    letter-spacing: 5%;
+    word-spacing: -10vw;
+    grid-auto-rows:max-content;
+    gap:1em
+  
+} */
 .nav-link{
-    color: #523f3f;
-    font-size: 30px;
+    color: #f5f5f5;
+    font-size: 1.5vw;
+
 }
 
-#logo{
-    justify-items: center;
-    margin-left: 280px;
+ .navbar-nav{
+    gap:1em;
+
+} 
+
+
+.navbar-collapse{
+    display: grid;
+    /* grid-row-end: 10px; */
+    background-color: black;
+    position: right;
 }
 
-li :hover{
-    background-color:rgb(234, 189, 189);
-    border-radius: 20px;
-    padding: 15px;}
+.nav-link:hover{
+    color:purple;
+    text-shadow: #f4f6f6 solid ;
+
+    
+    
+}
+
+.icon1{
+    font-size: 3vw;
+    color: #f5f5f5;
+    letter-spacing: 5px;
+    font-style: solid;
+    font-weight: 50;
+    
+}
+.icon1:hover{
+    color: purple;
+}
+
+#icon{
+    /* margin-left: 90%; */
+    font-size: 3vw;
+    font-weight:900;
+    color:purple;
+    
+    
+}
 
 
+
+.cuadros{
+    font-size:2vw ;
+}
+
+.navbar-toggler{
+    box-sizing: 1em;
+    color:#f5f5f5;
+
+}
+
+.navbar-toggler:hover{
+    color: purple;
+
+}
+
+
+.introContainer{
+    display: grid;
+    max-width: auto;
+    height: 40vw;
+    grid-auto-rows:max-content;  
+    align-content:top;
+    gap:0.5em;
+    justify-content: center;
+    text-align: center;
+    color: #f5f5f5;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 9vw;
+    margin-bottom: 5vw;
+    
+
+}
+
+.subtitle1{
+    margin:0, 20%;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+
+ /*Aquí necesito ayuda //////////////////!!!!!!!!
+
+/* .top_line{ 
+    display: inline-block;
+    justify-self: left;
+} */
+
+
+
+#hello{
+    font-size: 4vw;
+    font-weight: 900;
+    
+    
+} 
+
+#line{
+    color: #800080;
+    font-weight: 900;
+}
+
+ #im{
+    font-size: 7vw;
+    font-weight: 900;
+ }
+
+
+ .multitext{
+    font-size: 7vw;
+    color: purple;
+ }
+
+ #btnCV{
+    display: grid;
+    grid-auto-rows: max-content;
+    border: #f5f5f5;
+    box-shadow: #800080;
+    font-size: 2vw;
+    display: inline-block;
+    background-color:#cdcdcd;
+    justify-self:center;
+    color:black;
+    text-decoration: solid;
+    padding: 1vw, 3vw;
+    border-radius:10%;
+ }
+
+ #btnCV:hover{
+    background-color: black;
+    color: purple;
+ }
+
+
+
+.inicio{
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:1em;
+    align-items: center;
+
+}
+
+.presentacion{ 
+    margin: 10%;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-rows: 1fr 100%;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+
+}
+
+
+
+
+/* 
 .Portafolio {
     background-color:#ffefdf;
     padding: 20px;
     display: center;
 
-
- 
 }
 .nombre{
     display: flex;
@@ -44,13 +249,19 @@ li :hover{
     color: rgb(93, 76, 74);
 }
 
-.foto{
-    border-radius: 300px;
-    float: right;
-    padding-left: 150px;
+ */
+.foto{ 
+    margin: 10%;
+    display: grid;
+    grid-auto-rows: max-content;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: auto;   
+ 
+} 
 
-}
-
+/*
 .texto1{
     text-align:justify;
     display: flex;
@@ -58,43 +269,35 @@ li :hover{
     font-size: 40px;
    padding-left: 100px; 
 
-}
-
-hr{ 
-    border: none;
-    border-top: 23px double #333;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 15px;
-
-}
+}*/
 
 .about{
-    background:linear-gradient(#ffefdf,#f7e5fc);
+    background:#f5f5f5;
     padding: 150px;
     justify-content: center;
     font-size:30px ;
 
 }
 
+
+
+
 .contact{
-    background-color: transparent;
-    background-image: url("/rsc/Fondos\ de\ WhatsApp\ Minimalista\ Floral\ Multicolor.jpg");
+    background-color:#f5f5f5;
     padding: 150px;
     justify-content: center;
     text-decoration: none;
     font-size:30px;
 }
 
+
 footer{
     padding: 20px;
     text-align: center;
-    color:#ffefdf;
-    background-color: rgb(47, 37, 37);
+    color:#f5f5f5;
+    background-color: black;
     width:auto;
-    height: 80px;
-    size: 100px;
+    height: 80%;
     
 
 }
