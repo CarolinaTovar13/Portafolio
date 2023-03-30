@@ -27,12 +27,12 @@ video {
     }
 } */
 
-.nav{
-    height:15px;
-}
+/* .nav{
+    height:10px;
+} */
 
 .navbar{
-    height:10% ;
+    height:8vw ;
     background-color: black;
     opacity: 80%;
     
@@ -72,7 +72,9 @@ video {
 
 }
 
+
  .navbar-nav{
+    display:flex;
     gap:1em;
 
 } 
@@ -121,21 +123,23 @@ video {
 }
 
 .navbar-toggler{
-    box-sizing: 1em;
-    color:#f5f5f5;
+    display: flex;
+
+    
 
 }
 
 .navbar-toggler:hover{
     color: purple;
+    background-color: black ;
 
 }
 
 
 .introContainer{
-    display: grid;
+    display: grid, flex;
     max-width: auto;
-    height: 40vw;
+    height: 40vw; 
     grid-auto-rows:max-content;  
     align-content:top;
     gap:0.5em;
@@ -144,34 +148,35 @@ video {
     color: #f5f5f5;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 9vw;
-    margin-bottom: 5vw;
+    margin-top: 9vw; 
+
     
 
 }
 
+.subtitleBtn{
+    display: grid,flex;
+    grid-auto-rows:max-content;  
+
+}
+
 .subtitle1{
-    margin:0, 20%;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 2.5vw;
 }
 
 
- /*Aquí necesito ayuda //////////////////!!!!!!!!
 
-/* .top_line{ 
+.topLine{ 
+    font-size: 4vw;
     display: inline-block;
     justify-self: left;
-} */
-
-
-
-#hello{
-    font-size: 4vw;
     font-weight: 900;
-    
-    
-} 
+}
+
+
 
 #line{
     color: #800080;
@@ -189,7 +194,7 @@ video {
     color: purple;
  }
 
- #btnCV{
+ .btnCV{
     display: grid;
     grid-auto-rows: max-content;
     border: #f5f5f5;
@@ -200,11 +205,11 @@ video {
     justify-self:center;
     color:black;
     text-decoration: solid;
-    padding: 1vw, 3vw;
+    padding: 1vw, 4vw;
     border-radius:10%;
  }
 
- #btnCV:hover{
+ .btnCV:hover{
     background-color: black;
     color: purple;
  }
@@ -233,23 +238,6 @@ video {
 
 
 
-
-/* 
-.Portafolio {
-    background-color:#ffefdf;
-    padding: 20px;
-    display: center;
-
-}
-.nombre{
-    display: flex;
-    text-align: center;
-    font-size: 60px;
-    font-family:cursive;
-    color: rgb(93, 76, 74);
-}
-
- */
 .foto{ 
     margin: 10%;
     display: grid;
