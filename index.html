@@ -11,12 +11,12 @@
     <title>Portfolio</title>
     
 </head>
-<body class="bg-dark">
+<body style="background-color:rgb(98, 77, 102)">
   <header class="intro">
+    <!-- Inicio header destok -->
     <div class="header">
-
     <!-- Inicio del menú -->
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="headerDestok navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"> 
             <!-- <i class="bi bi-code-slash" id="icon"></i>
@@ -40,7 +40,7 @@
 
           <!-- Elementos del menú colapsable -->
           <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav me-auto mb-2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="#inicio">Home</a>
               </li>
@@ -67,8 +67,7 @@
               </li>
               
             </ul> 
-            
-            <li class="d-none d-lg-block d-xl-none">
+          
             <i class="bi bi-code-slash" id="icon"></i>
                   <span class="icon1"> CTA </span>
                 </li>    
@@ -76,8 +75,61 @@
         </ul>
         </div>
       </nav>
+    </div>
+  </div>  
+      <!-- Fin header destok -->
 
-      <section>
+      <!-- Inicio HeaderCel -->
+
+<div class="headerCel">
+  <nav class="navbar headerCel navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <i class="bi bi-code-slash" id="icon"></i>
+                  <span class="icon1"> CTA </span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Hello World!</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+      <!-- Fin Header Cel -->
+
+      
       <div class="introContainer">
         <div class="wrapper">
           <span class="topLine" id="hello">Hello <b id="line">__</b></span>
@@ -97,24 +149,29 @@
 
       </div>
 
-    </section>
-    </header>
-
-    <div>
-      <video muted autoplay loop> <source src="./src/WTWPE3422_MOV_AdobeExpress.mp4"  type="video/mp4"></video>
-    </div>
+    
     
 
-<div>
+  
+      <video muted autoplay loop> <source src="./src/WTWPE3422_MOV_AdobeExpress.mp4"  type="video/mp4"></video>
+    </div>
+  </header>
+    
+
+
   
   <section class="inicio">
     <div class="presentacion">
         <h1 class="nombre"> <a name="inicio"> Carolina Tovar Alfaro</a></h1>
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p> Hello you! <br>
+          I'm <span>happiest when I'm creating, learning, exploring and thinking </span> about how to make things better. 
+          I'm not available for any freelance work, but feel free to reach out and say hello! I promise I don't bite 😉. <br>
+          High capacity to <span>analyze problems</span> and find possible solutions.
+          Self-directed during independet projects, as well as collaborative. 
+          Capable of coordinate and direct teamworks.</p>
       </div>
-      <figure class="fotoMia">
-            <!-- <img class="foto" src="./src/Foto.png" alt="Photo"> -->
-          </figure>
+            <img class="foto" src="./src/WhatsApp Image 2023-03-28 at 13.38.17.jpeg" alt="Photo">
+          
           
             
     </section>
@@ -123,13 +180,90 @@
 
     <section class="about">
         <h1> <a name="about">About</a></h1>
-        <p class="texto2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel rem, odio nulla autem deserunt dignissimos fugiat ex. Ad, eveniet ratione pariatur debitis perspiciatis ea voluptatum dolorem quod in autem illum.
+        <br>
+        
+
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Programming Lenguage
+          </button>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+            Toggle width collapse
+          </button>
         </p>
+
+        <div style="min-height: 120px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body">
+
+              <img src="https://www.jairogarciarincon.com/img/clases/1325.jpg" alt="Java" width="150vw">
+              <br><br>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JS" width="150vw">
+
+
+              </div>
+            </div>
+          </div>
+      
+        <div style="min-height: 120px;">
+          <div class="collapse" id="collapseWidthExample2">
+            <div class="card card-body" style="width: 300px;">
+              This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+          </div>
+        </div>
+
+       
     </section>
+
+
 
     <section class="contact">
         <h1> <a name="contact">Contact</a></h1>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
         <p class="texto2">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel rem, odio nulla autem deserunt dignissimos fugiat ex. Ad, eveniet ratione pariatur debitis perspiciatis ea voluptatum dolorem quod in autem illum.
 
