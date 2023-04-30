@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-*  {
-    font-family: 'Raleway', sans-serif;;
+  {
+    font-family: 'Raleway', sans-serif;
     word-spacing: 5px;
 }
  
@@ -143,7 +143,8 @@ video {
     color: #f5f5f5;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 9vw; 
+    margin-top: 9vw;  
+    font-family: 'Raleway', sans-serif;
     
 
     
@@ -224,7 +225,6 @@ video {
     background-color: rgb(98, 77, 102);
     display: grid;
     grid-template-columns: 45% 45%;
-    gap:1em;
     align-items: center;
    
    
@@ -248,7 +248,7 @@ video {
 }
 
 .presentacion h1{
-    font-size: 3vw;
+    font-size: 15vw;
     font-family: 'Pacifico', cursive;
     color:rgb(207, 199, 228) ;
 }
@@ -256,7 +256,9 @@ video {
 
 
 .presentacion p{
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5vw;
+    
 }
 
 .presentacion p span{
@@ -324,10 +326,10 @@ video {
 }
 
 .about h1{
-    font-size: 5vw;
+    font-size: 8vw;
     color:#1b374b;
     font-family: 'Pacifico', cursive;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
  
@@ -397,8 +399,21 @@ background-color: #abc5d8;
 }
 
 .projects{
-    height: 100vw;
+    height: 90vw;
     background-color: rgb(200, 176, 102);
+}
+
+.projects h1{
+    font-size: 10vw;
+    font-family: 'Pacifico', cursive;
+    color: rgb(86, 73, 34) ;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.vianda{
+    padding-top: 5%;
+    padding-left: 25%;
 }
 
 .barraColor4{
@@ -411,8 +426,24 @@ background-color: #abc5d8;
     padding: 10%;
     justify-content: center;
     text-decoration: none;
-    font-size:30px;
+    font-size:5vw;
+
+    
 }
+
+
+.contact h1{
+    font-size:8vw;
+    font-family: 'Pacifico', cursive;
+    color:#1b542e;
+}
+
+/* @keyframes contacto {
+    0%   {color:#1b542e;}
+    25%  {color:rgb(200, 176, 102);}
+    50% {color: rgb(125, 110, 64);}
+    100%   {color:  #1b542e;}
+} */
 
 #inputMessage{
     width: 80vw;
@@ -449,8 +480,16 @@ footer{
     background-color: black;
     width:auto;
     height: 80%;
-    
 
+}
+
+.iconsFooter{
+    color: rgb(253, 253, 253);
+    font-size: 5vw;
+}
+
+.iconsFooter:hover{
+color:  rgb(98, 77, 102);
 }
 
 .headerCel{
@@ -459,20 +498,21 @@ footer{
 
 .celIntro{
     display: flex;
-    height: 90vh;
+    height: 205vw;
     text-align: center;
     justify-content: center;
 
 }
 .presentacionCel{
-    height:200vw;
+    height:90vw;
     margin: 5%;
+    margin-top: 45%;
     display: grid;
     grid-auto-rows: max-content;
     justify-content: center;
     align-items: center;
     gap:0.5vw;
-    margin: 15%;
+
 
 }
 
@@ -480,10 +520,15 @@ footer{
 .imgCel{
     z-index: -1;
     position:absolute;
+    height: 130vh;
+    object-fit: cover;
+    /*display: flex;
+    z-index: -1;
+    position:absolute;
     top:0;
     object-fit: cover;
-    background-size: cover;
-    height: 100vh;
+    background-size: cover;*/
+    /* height: 150vh;  */
 }
 
 
@@ -615,6 +660,11 @@ footer{
         height: 60vw; 
 
  }
+
+ .iconsFooter{
+    color: rgb(253, 253, 253);
+    font-size: 15vw;
+}
 }
 
   @media (max-width:1000px){
