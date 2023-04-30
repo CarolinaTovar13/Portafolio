@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-  {
+  /* {
     font-family: 'Raleway', sans-serif;
     word-spacing: 5px;
 }
- 
+  */
 
 
 video {
@@ -231,7 +231,7 @@ video {
 
 }
 
-.presentacion{ 
+.presentacion, .presentacionProjects{ 
     margin: 10%;
     margin-bottom: 20%;
     display: grid;
@@ -248,7 +248,7 @@ video {
 }
 
 .presentacion h1{
-    font-size: 15vw;
+    font-size: 3vw;
     font-family: 'Pacifico', cursive;
     color:rgb(207, 199, 228) ;
 }
@@ -399,22 +399,61 @@ background-color: #abc5d8;
 }
 
 .projects{
-    height: 90vw;
+    height: 270vw;
     background-color: rgb(200, 176, 102);
 }
 
 .projects h1{
-    font-size: 10vw;
+    font-size: 7vw;
     font-family: 'Pacifico', cursive;
     color: rgb(86, 73, 34) ;
     padding-top: 5%;
     padding-left: 5%;
 }
 
-.vianda{
-    padding-top: 5%;
-    padding-left: 25%;
+.projects h2{
+    font-size: 6vw;
+    color: rgb(86, 73, 34) ;
 }
+
+.projects p{
+    font-size: 3vw;
+}
+
+.project1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    align-items: center;
+
+}
+
+.projectVianda{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    align-items: center;
+}
+
+.contenedorVianda{
+    align-content: center;
+    width: 50vw;
+}
+
+.fotoVianda{ 
+    display: grid;
+    width: 40vw; 
+    margin-left: 10%;
+    animation-name: foto;
+    animation-duration: 3s;
+ 
+} 
+
+.iconProjects{
+    font-size: 5vw;
+}
+
+
 
 .barraColor4{
     background-color: rgb(200, 176, 102);
@@ -518,6 +557,7 @@ color:  rgb(98, 77, 102);
 
 
 .imgCel{
+    opacity: 80%;
     z-index: -1;
     position:absolute;
     height: 130vh;
