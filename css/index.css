@@ -37,7 +37,6 @@ video {
     background-color: black;
     opacity: 80%;
     
-    
 }
 
 /* header{
@@ -115,11 +114,7 @@ video {
     font-size: 3vw;
     font-weight:900;
     color:purple;
-    
-    
 }
-
-
 
 .cuadros{
     font-size:2vw ;
@@ -127,9 +122,6 @@ video {
 
 .navbar-toggler{
     display: flex;
-
-    
-
 }
 
 .navbar-toggler:hover{
@@ -475,25 +467,20 @@ footer{
 .presentacionCel{
     height:200vw;
     margin: 5%;
-    margin-top: 10%;
     display: grid;
     grid-auto-rows: max-content;
     justify-content: center;
     align-items: center;
     gap:0.5vw;
-    padding-top: 50%;
+    margin: 15%;
 
 }
-
-
 
 
 .imgCel{
     z-index: -1;
     position:absolute;
     top:0;
-    size:50;
-    width: 100%; 
     object-fit: cover;
     background-size: cover;
     height: 100vh;
@@ -504,11 +491,26 @@ footer{
     .headerCel{
         display:block;
     }
+
+    .navbar{
+        height: 15vw;
+    }
+
+    .navbar-toggler{
+        margin-top: 3%;
+        margin-right: 2%;
+    }
+
+    .icon1{
+        font-size: 5vw;
+    }
+
     video{
         display: block;
     }
 
     #icon{
+        font-size: 5vw;
         color:rgb(27, 27, 205);
         
     }
@@ -537,7 +539,7 @@ footer{
     }
 
     .subtitleBtn p {
-        font-size: 7vw;
+        font-size: 5vw;
         color: white;
     }
 

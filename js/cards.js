@@ -102,7 +102,7 @@ window.addEventListener("load", function(event){
     box-shadow: 0 0 5px 2px #89969f88;;
     position: absolute;
     backface-visibility: hidden;
-    border-radius:3rem;
+    border-radius:1rem;
 }
 
 .frontCart1{
@@ -118,7 +118,7 @@ window.addEventListener("load", function(event){
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    font-size: 2vw;
+    font-size: 25vw;
     background-color: #e5e5f7;
     opacity: 0.8;
     background: linear-gradient(135deg, #93bedcbe 25%, transparent 25%) -10px 0/ 20px 20px, 
@@ -129,6 +129,7 @@ window.addEventListener("load", function(event){
 }
 
 .backCart1 p {
+    font-size: 3vw;
     margin: 10%;
 }
 </style> `
