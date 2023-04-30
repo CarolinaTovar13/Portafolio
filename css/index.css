@@ -492,6 +492,7 @@ footer{
     z-index: -1;
     position:absolute;
     top:0;
+    size:50;
     width: 100%; 
     object-fit: cover;
     background-size: cover;
